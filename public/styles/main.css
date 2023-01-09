@@ -1,0 +1,110 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background: #000000;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 1px rgba(116, 116, 116, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+#centerInformation {
+    height: 10000
+}
+
+.horizontalBar {
+    background-color: rgb(104, 104, 104);
+    width: 45%;
+    height: 1px;
+    margin: 0px auto 40px auto;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    line-height: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+
+#members {
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+    padding: 40px;
+}
+
+#rush {
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    width: 640px; 
+    padding: 40px;
+    font-size: 1.05em;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+#writeUp {
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    width: 640px; 
+    padding: 40px;
+    font-size: 1.05em;
+    font-family:'Times New Roman', Times, serif;    
+}
+
+#information {
+    background-color: rgb(220, 220, 220);
+    color:#ffffff;
+    height: 50px;
+    font-family:serif;
+    font-weight: lighter;
+    line-height: 50px;
+    border: 1px solid hsl(0, 0%, 31%);
+}
+
+#me {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .6em;
+}
+
+#info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 40px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-container {
+    margin-top: 75px;
+}
